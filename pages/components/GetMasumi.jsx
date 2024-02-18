@@ -6,10 +6,10 @@ const GetMasumi = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (masumis.length < 10) {
+      if (masumis.length < 100) {
         addMasumi();
       }
-    }, 1000);
+    }, 500);
 
     return () => clearInterval(interval);
   }, [masumis]);
