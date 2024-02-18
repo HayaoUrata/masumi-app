@@ -34,8 +34,8 @@ const GetMasumi = () => {
 
   return (
     <div>
-      <div style={{ position: 'fixed', right: 0, top: 0, padding: '10px', background: 'lightgray', zIndex: 1000 }}>
-        捕獲：{count}体
+      <div style={{ position: 'fixed', right: 0, top: 0, padding: '10px', background: 'gray', zIndex: 1000 }}>
+        捕獲したmasumi：{count}体
       </div>
       {masumis.map((masumi) => (
         <img
